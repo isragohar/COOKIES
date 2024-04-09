@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+ul{
+    display: flex;
+list-style: none;
+}
+nav h1{
+    font-size: 30px;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 24px;
+    border-bottom: 3px solid rgb(238, 8, 8);
+    border-radius: 3px;
+    cursor: pointer;
+}
+ul li a:hover{
+    border: 2px solid white;
+}
+img{
+    width: 45%;
+
+}
+.container{
+    display: flex;
+    justify-content: center ;
+    justify-content: space-around;
+margin-top: 70px;
+}
+.container .text{
+    margin-top:40px;
+}
+.text h1{
+    font-size: 120px;
+}
+.text p{
+    font-size: 26px;
+    margin-top: 50px;
+}
+.text button{
+    width: 160px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: none;
+    margin-top: 50px;
+}
+.text button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+    
+    /* ------ Order Sheet ------- */
+    
+{ margin:  0auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial Rounded MT Bold;}
+
+    
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    }
+    #h41 {
+    padding-top: 150px;
+    width: 40%;
+    text-align: center;
+    }
+    
+    p {
+    width: 60%;
+    text-align: center;
+    }
+    
+    #h42 {
+    width: 60%;
+    text-align: center;
+    }
+    
+    .inputBox {
+    display: inline-block;
+    position: relative;
+    width: 375px;
+    }
+    
+    .inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #1e90ff;
+    background: #bfc2c4;
+    border-radius: 5px;
+    outline: none;
+    color: red;
+    font-size: 1em;
+    transition: 0.5s;
+    }
+    
+    .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: red;
+    text-transform: uppercase;
+    transition: 0.5s;
+    }
+    
+    .inputBox input:valid ~ span,
+    .inputBox input:focus ~ span {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: #bfc2c4;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    letter-spacing: 0.2em;
+    }
+    
+    .inputBox input:valid,
+    .inputBox input:foucs {
+    border: 1px solid red;
+    }
+    
+    #note {
+    font-size: small;
+    align-content: center;
+    }
+    
+    .inputBox input.time {
+    margin: 5px 0 20px 0;
+    }
+    
+    .inputBox textarea {
+    width: 150%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -62px;
+    border: 2px solid #1e90ff;
+    background: #bfc2c4;
+    border-radius: 5px;
+    outline: none;
+    color: red;
+    font-size: 1em;
+    transition: 0.5s;
+    height: 200px;
+    
+    }
+    
+    textarea::placeholder {
+    color: red;
+    }
+    
+    #property-type {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #1e90ff;
+    background: #bfc2c4;
+    border-radius: 5px;
+    outline: none;
+    color: red;
+    font-size: 1em;
+    }
+    
+    @media only screen and (max-width: 600px) {
+    /* styles for screens smaller than 600px */
+    #h41, #h42 {
+    font-size: 20px;
+    text-align: center;
+    }
+    }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    
+</head>
+<body>
+    <nav>
+        <h1>COOKIES</h1>
+        <ul>
+            <li><a  href="index.html" style="color: white;">Home</a></li>
+            <li><a href="order.html" style="color: white;">ORDER'S</a></li>
+            <li><a href="VARTIETY.html" style="color: white;">VARTIETY</a></li>
+            <li><a  href="contact.html" style="color: white;">CONTACT</a></li>
+
+        </ul>
+    </nav>
+    <br>
+    <br>
+   
+        <body class="order">
+            
+            <h4 id="h41">To place an order, please fill out the information below</h4>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <input type="text" required="required" class="first-line">
+                    <span>First Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" class="second-line">
+                    <span>Last Name</span>
+                </div>
+            </div>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <input type="email" required="required" class="first-line">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" class="second-line">
+                    <span>Delivery Address</span>
+                </div>
+            </div>
+            <h4>Pick 3 days and times that work best for your delivery</h4>
+            <p id="note">*Note: Delivery dates must be requested at least 
+                two days prior to the desired delivery date.</p>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <input type="date" required>
+                    <input type="time" class="time" required>
+                    <input type="date" required>
+                    <input type="time" class="time" required>
+                    <input type="date" required>
+                    <input type="time" class="time" required>
+                </div>
+            </div>
+            <h4 id="h42">Select which store you'd like to order from, followed by your desired items</h4>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <input type="text" required>
+                    <span>Name of Store</span>
+                    <br>
+                    <textarea class="list" placeholder="Insert Shopping List Here..."></textarea>
+                </div>
+            </div>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <label for="property-type" class="property-type">Property Type:</label>
+                    <select name="property-type" id="property-type">
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="condo">Condo</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputGroup">
+                <div class="inputBox">
+                    <textarea class="delivery-instructions" 
+                    placeholder="Delivery Instcructions..."></textarea>
+                </div>
+            </div>
+   
+
+</html>
